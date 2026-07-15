@@ -16,8 +16,11 @@ i18n script.
 │   ├── css/style.css     # Nautical theme, responsive, light/dark aware
 │   ├── js/i18n.js        # Language detection, toggle & persistence
 │   └── img/
-│       ├── logo.svg      # Club emblem (placeholder — see "Logo" below)
-│       └── favicon.svg
+│       ├── logo.svg          # Full horizontal lockup (colour, for light backgrounds)
+│       ├── logo-light.svg    # Reversed lockup (for dark backgrounds: hero, footer, dark mode)
+│       ├── emblem.svg        # Circular badge only (colour)
+│       ├── emblem-light.svg  # Circular badge only (reversed)
+│       └── favicon.svg       # Badge on a rounded navy tile
 ├── CNAME                 # Custom domain for GitHub Pages (cnpm.pt)
 ├── .nojekyll             # Serve files as-is (skip Jekyll processing)
 ├── robots.txt
@@ -38,10 +41,11 @@ To edit copy: change the Portuguese in `index.html` and the matching key in the
 
 ## Logo
 
-`assets/img/logo.svg` is a **custom-made emblem** in the club's nautical style,
-created because the official logo was not available in good quality online.
-To use the official one, replace `assets/img/logo.svg` (and optionally
-`favicon.svg`) — the rest of the site needs no changes.
+The logos in `assets/img/` were **vectorised (traced) from the official club
+logo** into clean, resolution-independent SVGs, with a colour version for light
+backgrounds and a reversed light version for dark ones (hero, footer, dark mode).
+To refresh them from a new source image, re-trace it and replace the files —
+the markup needs no changes.
 
 ## Deploying to GitHub Pages
 

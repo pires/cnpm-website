@@ -1,6 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Clube Náutico da Praia de Mira">
-  <rect width="100" height="100" rx="22" fill="#12294a"/>
-  <g transform="translate(10.9,10.9) scale(0.1932)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414 414" role="img" aria-label="Clube Náutico da Praia de Mira">
 <g transform="translate(0.000000,414.000000) scale(0.125000,-0.125000)"
 fill="#eef4f8" stroke="none">
 <path d="M1771 3257 c-67 -49 -150 -163 -167 -231 -3 -12 -10 -27 -15 -34 -40
@@ -387,5 +385,4 @@ fill="#bcd0e2" stroke="none">
 -11 -4 -4 -30 -14 -56 -23 -312 -108 -717 -103 -980 13 -170 74 -191 99 -118
 133 23 11 88 49 142 85 109 69 106 68 130 55z"/>
 </g>
-  </g>
 </svg>
